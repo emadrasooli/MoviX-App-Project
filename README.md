@@ -14,7 +14,7 @@ made with HTML | CSS | JavaScript
 
 ![screencapture-127-0-0-1-5500-shows-html-2024-08-04-15_14_59](https://github.com/user-attachments/assets/594ac4b8-c3f6-4802-93ea-20fdc50115f8)
 
-## Search Engine 
+## Search Engine
 
 ![screencapture-127-0-0-1-5500-search-html-2024-08-04-15_15_47](https://github.com/user-attachments/assets/5a80216f-ca8a-41d1-b569-14736bbc54ef)
 
