@@ -12,7 +12,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   background: var(--color-primary);
   color: #fff;
@@ -94,7 +94,6 @@ ul {
   color: #fff;
   font-size: 25px;
   font-weight: 700;
-  text-transform: uppercase;
 }
 
 .main-header ul {
@@ -124,10 +123,13 @@ ul {
 .card {
   background: #04376b;
   padding: 5px;
+  border-radius: 1rem;
+  transition: all 0.5s ease-in-out;
 }
 
 .card img {
   width: 100%;
+  border-radius: 1rem;
 }
 
 .card-body {
@@ -137,7 +139,7 @@ ul {
 
 .card:hover {
   transform: scale(1.05);
-  transition: all 0.5s ease-in-out;
+
   background: #0a4b8f;
 }
 
@@ -158,7 +160,6 @@ ul {
   color: #fff;
   font-size: 25px;
   font-weight: 700;
-  text-transform: uppercase;
 }
 
 .main-footer .container .social-links {
@@ -238,9 +239,6 @@ section h2 {
   margin-top: 20px;
 }
 
-.details-bottom {
-}
-
 .details-bottom li {
   margin: 15px 0;
   padding-bottom: 8px;
@@ -281,7 +279,7 @@ section h2 {
   margin-top: 10px;
 }
 
-.search .container form input[type='text'] {
+.search .container form input[type="text"] {
   flex: 6;
   width: 100%;
   height: 50px;
@@ -293,11 +291,11 @@ section h2 {
   color: #fff;
 }
 
-.search .container form input[type='text']::placeholder {
+.search .container form input[type="text"]::placeholder {
   color: #fff;
 }
 
-.search .container form input[type='text']:focus {
+.search .container form input[type="text"]:focus {
   outline: none;
 }
 
@@ -328,16 +326,15 @@ section h2 {
 
 /* Alert */
 .alert {
-  background: red;
   padding: 10px 20px;
   margin-bottom: 20px;
   border-radius: 5px;
 }
 
-.alert-success {
+.success {
   background: green;
 }
 
-.alert-error {
+.error {
   background: red;
 }
