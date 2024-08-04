@@ -1,4 +1,4 @@
-# Movee-app
+# MoviX-app
 
 A movie app project that work with tmdb.org APIs
 
