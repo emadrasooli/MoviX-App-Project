@@ -13,6 +13,15 @@ const global = {
   },
 };
 
+// checked input select
+document.getElementById("tv-label").addEventListener("click", () => {
+  const movieInput = document.getElementById("tv");
+  movieInput.checked = true;
+});
+document.getElementById("movie-label").addEventListener("click", () => {
+  const movieInput = document.getElementById("movie");
+  movieInput.checked = true;
+});
 // Display 20 most popular movies
 async function displayPopularMovies() {
   const { results } = await fetchAPIData("movie/popular");

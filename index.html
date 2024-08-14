@@ -12,8 +12,6 @@
   <link rel="stylesheet" href="lib/fontawesome.css" />
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/spinner.css" />
-  <script src="lib/swiper.js"></script>
-  <script src="js/script.js" defer></script>
   <title>MoviX</title>
 </head>
 
@@ -50,9 +48,9 @@
         <!-- movies and shows radio box -->
         <div class="search-radio">
           <input type="radio" id="movie" name="type" value="movie" checked />
-          <label for="movies">Movies</label>
+          <label for="movies" id="movie-label">Movies</label>
           <input type="radio" id="tv" name="type" value="tv" />
-          <label for="shows">TV Shows</label>
+          <label for="shows" id="tv-label">TV Shows</label>
         </div>
         <div class="search-flex">
           <input type="text" name="search-term" id="search-term" placeholder="Enter search term" />
@@ -86,6 +84,10 @@
   </footer>
 
   <div class="spinner"></div>
+
+
+  <script src="lib/swiper.js"></script>
+  <script src="js/script.js" defer></script>
 </body>
 
 </html>
